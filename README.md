@@ -11,6 +11,7 @@ npm run build         # type-check + build the production bundle in dist/
 npm run preview       # preview the production build locally
 npm test              # run unit tests
 ```
+<img width="1484" height="466" alt="Screenshot 2025-11-23 at 2 35 24 AM" src="https://github.com/user-attachments/assets/54518628-6311-4acf-a64b-15aed864f56d" />
 
 ## Docker workflow
 
@@ -18,7 +19,6 @@ npm test              # run unit tests
 ```bash
 docker build -t smartcart-app .
 ```
-
 ### Run with Docker
 ```bash
 docker run --rm -p 4173:4173 smartcart-app
